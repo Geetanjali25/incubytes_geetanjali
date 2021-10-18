@@ -30,16 +30,4 @@ class StringCalculatorTest {
     		//e.printStackTrace();
     	}
 	}
-	@Test
-	public void test2() {
-		try {
-		//Unknown number of elements
-		assertEquals(6, C.Add("1,2,3"));
-		assertEquals(10, C.Add("1,2,3,4"));
-		assertEquals(14, C.Add("2,3,4,5"));
-		assertEquals(42, C.Add("2,4,6,8,10,12"));
-		}catch(Exception e) {
-    		//e.printStackTrace();
-    	}
-	}	
 }

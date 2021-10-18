@@ -41,5 +41,4 @@ class StringCalculatorTest {
 		}catch(Exception e) {
     		//e.printStackTrace();
     	}
-	}	
 }
