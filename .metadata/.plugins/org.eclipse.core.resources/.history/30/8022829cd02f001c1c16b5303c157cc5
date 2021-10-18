@@ -54,28 +54,4 @@ class StringCalculatorTest {
     		//e.printStackTrace();
     	}
 	}
-	@Test
-	public void test4(){
-		try {
-		//Support Different Delimiters
-		assertEquals(3, C.Add("//;\n1;2"));
-		assertEquals(6, C.Add("//:\n1:2:3"));
-		assertEquals(10, C.Add("//'\n1'2'3'4"));
-		assertEquals(3, C.Add("// \n1 2"));
-		}catch(Exception e) {
-    		//e.printStackTrace();
-    	}
-	}
-	
-	@Test 
-	public void test5() {
-		try {
-		//Handling Negative values
-		assertEquals(1, C.Add("1,-2"));
-		assertEquals(1, C.Add("1,-2,-3"));
-		}catch(Exception e) {
-    		//e.printStackTrace();
-    	}
-	}
-	
 }
