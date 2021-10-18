@@ -42,16 +42,4 @@ class StringCalculatorTest {
     		//e.printStackTrace();
     	}
 	}	
-	@Test
-	public void test3(){
-		try {
-		//Handle new lines between numbers
-		assertEquals(6, C.Add("1\n2,3"));
-		assertEquals(10, C.Add("1,2\n3,4"));
-		assertEquals(10, C.Add("1,2,3\n4"));
-		assertEquals(14, C.Add("2\n3,4,5"));
-		}catch(Exception e) {
-    		//e.printStackTrace();
-    	}
-	}
 }
