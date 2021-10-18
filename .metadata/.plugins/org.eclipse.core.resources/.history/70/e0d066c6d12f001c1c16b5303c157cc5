@@ -78,5 +78,5 @@ class StringCalculator {
         //The final sum value returned
 		return sum;	
 		}
-//All test cases passed, making final commit 
+
 }
