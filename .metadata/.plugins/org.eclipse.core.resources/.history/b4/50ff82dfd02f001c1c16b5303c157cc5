@@ -77,28 +77,5 @@ class StringCalculatorTest {
     		//e.printStackTrace();
     	}
 	}
-	@Test 
-	public void test6() {
-		try {
-		//Handling multiple Negative values
-		assertEquals(0, C.Add("-1,-2"));
-		assertEquals(1, C.Add("1,-2,-3"));
-		}catch(Exception e) {
-    		//e.printStackTrace();
-    	}
-	}
 	
-	
-
-    @Test
-    public void test7(){
-    	try {
-        assertEquals(0, C.calculateCount());
-//        C.Add("12");
-//        assertEquals(1, C.calculateCount());
-    	}catch(Exception e) {
-    		//e.printStackTrace();
-    	}
-    }
-
 }
