@@ -100,27 +100,5 @@ class StringCalculatorTest {
     		//e.printStackTrace();
     	}
     }
-    @Test 
-	public	void test8(){
-		try {
-		//Handling numbers greater than 1000
-		assertEquals(1, C.Add("1,1001"));
-		assertEquals(1, C.Add("1,-2,5050"));
-		assertEquals(3, C.Add("1,1001,2,2000"));
-		assertEquals(0, C.Add("9000"));
-		}catch(Exception e) {
-    		//e.printStackTrace();
-    	}
-	}
-	
-	@Test
-	public	void test10() {
-		try {
-		//Support Different Delimiters
-		assertEquals(100, C.Add("//[*]\n1**2**3"));
-		}catch(Exception e) {
-    		//e.printStackTrace();
-    	}
-	}
-	
+
 }
